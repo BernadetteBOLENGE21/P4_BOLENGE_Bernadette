@@ -91,7 +91,7 @@ a:hover {
 }
 
 .texture-paper::before {
-  background: url("img/texture-paper.png");
+  /*background: url("img/texture-paper.png");*/
   background-size: 280px 280px;
 }
 
@@ -738,7 +738,7 @@ h4 {
 }
 
 .white {
-  color: #ffffff !important;
+  color: black !important;
 }
 
 .portfolio-thumb {
@@ -767,21 +767,21 @@ h4 {
 .bgc-white {
   background-color: #ffffff;
 }
-
+/*
 .bgc-dark-slate-blue {
   background-color: #364577;
-}
+}*/
 
 .bgc-atomic-tangerine {
   background-color: #f3976c;
 }
 
 .tc-white {
-  color: #f3976c !important;
+  color: black !important;
 }
 
 .btn-atomic-tangerine {
-  background: #f3976c;
+  background: black;
   color: #ffffff !important;
 }
 
@@ -828,6 +828,15 @@ h4 {
 }
 
 @media (max-width: 1024px) {
+  p {
+    font-size: 14px;
+  }
+  h2 {
+    font-size: 18px;
+  }
+  h3 {
+    font-size: 16px;
+  }
   .bloc {
     padding-left: 20px;
     padding-right: 20px;
@@ -863,6 +872,15 @@ h4 {
 }
 
 @media (max-width: 991px) {
+  p {
+    font-size: 13px;
+  }
+  h2 {
+    font-size: 17px;
+  }
+  h3 {
+    font-size: 15px;
+  }
   .container {
     width: 100%;
   }
@@ -892,6 +910,18 @@ h4 {
 }
 
 @media (max-width: 767px) {
+  h1 {
+    font-size: 16px;
+  }
+  h2 {
+    font-size: 14px;
+  }
+  h3 {
+    font-size: 13px;
+  }
+  p {
+    font-size: 12px;
+  }
   .page-container {
     overflow-x: hidden;
     position: relative;
