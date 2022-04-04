@@ -626,7 +626,7 @@ h4 {
   margin-top: 24px;
 }
 .white {
-  color: #fff !important;
+  color: black !important;
 }
 .portfolio-thumb {
   margin-bottom: 24px;
@@ -656,7 +656,7 @@ h4 {
   background-color: #f3976c;
 }
 .tc-white {
-  color: white !important;
+  color: black !important;
 }
 .btn-atomic-tangerine {
   background: black;
@@ -667,7 +667,7 @@ h4 {
   color: #fff !important;
 }
 .ltc-white {
-  color: #fff !important;
+  color: black !important;
 }
 .ltc-white:hover {
   color: #ccc !important;
