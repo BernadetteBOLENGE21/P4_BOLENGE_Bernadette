@@ -95,27 +95,27 @@
 									<label for="name">
 										Nom
 									</label>
-									<input id="name" class="form-control" required />
+									<input id="name" aria-describedby="name" class="form-control" title="Nom" required />
 								</div>
 								<div class="form-group">
 									<label for="email">
 										Adresse email
 									</label>
-									<input id="email" class="form-control" type="email" required />
+									<input id="email" aria-describedby="email" class="form-control" type="email" title="Entrez votre adresse email" required />
 								</div>
 								<div class="form-group">
 									<label for="input_504">
 										Comment nous avez-vous connu ?
 									</label>
-									<input class="form-control" type="email" required id="input_504" />
+									<input class="form-control" aria-describedby="input_504" type="email" id="input_504" title="Comment nous avez vous connu?" required />
 								</div>
 								<div class="form-group">
 									<label for="message">
 										Brief de votre projet (Ajoutez autant de détails que nécessaire)<br>
-									</label><textarea id="message" class="form-control" rows="4" cols="50"
+									</label><textarea id="message" class="form-control" aria-describedby="message" title="Détaillez votre projet" rows="4" cols="50"
 										required></textarea>
 								</div>
-								<button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine"
+								<button aria-labelledby="soumettre" id="soumettre" class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine" title="envoi du formulaire"
 									type="submit">
 									Envoyer
 								</button>
@@ -134,14 +134,6 @@
 		</section>
 		<!-- bloc-7 END -->
 
-		<section>
-			<!-- ScrollToTop Button -->
-			<a class="bloc-button btn btn-d scrollToTop" onclick="scrollToTarget('1')"><span
-					class="fa fa-chevron-up"></span></a>
-			<!-- ScrollToTop Button END-->
-		</section>
-
-
 		<!-- Footer - bloc-8 -->
 		<footer>
 			<div class="bloc bgc-atomic-tangerine d-bloc" id="bloc-8">
@@ -154,25 +146,25 @@
 							<div class="row row-no-gutters social">
 								<div class="col-sm-3">
 									<div class="text-center">
-										<a class="social" href="https://twitter.com/"><span
+										<a class="social" href="https://twitter.com/" target="blank" title="twitter_link"><span
 												class="fa fa-twitter icon-md"></span></a>
 									</div>
 								</div>
 								<div class="col-sm-3">
 									<div class="text-center">
-										<a class="social" href="https://www.facebook.com/"><span
+										<a class="social" href="https://www.facebook.com/" target="blank" title="facebook_link"><span
 												class="fa fa-facebook icon-md"></span></a>
 									</div>
 								</div>
 								<div class="col-sm-3">
 									<div class="text-center">
-										<a class="social" href="https://dribbble.com/"><span
+										<a class="social" href="https://dribbble.com/" target="blank" title="dribbble_link"><span
 												class="fa fa-dribbble icon-md"></span></a>
 									</div>
 								</div>
 								<div class="col-sm-3">
 									<div class="text-center">
-										<a class="social" href="https://www.instagram.com/"><span
+										<a class="social" href="https://www.instagram.com/" target="blank" title="instagram_link"><span
 												class="fa fa-instagram icon-md"></span></a>
 									</div>
 								</div>
